@@ -6,6 +6,7 @@ import ComputerIcon from '@mui/icons-material/Computer';
 import './App.css';
 import Divider from './components/Divider';
 
+
 function App() {
   return (
     <Box 
@@ -68,10 +69,8 @@ function App() {
 
 
       </Box>
-      <Divider />
-      <ContactInfo />
-      <Divider />
       <ProjectContainer />
+      <ContactInfo />
     </Box >
   );
 }

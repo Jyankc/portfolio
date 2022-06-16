@@ -5,8 +5,8 @@ export default function Divider(){
     return (
 
         <Box
-        sx={{height:'0.25%',
-        backgroundColor:'primary.dark'}}>
+        sx={{height:'0.2%',
+        backgroundColor:'secondary.light'}}>
     
         </Box>
     )

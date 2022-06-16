@@ -21,8 +21,8 @@ export default function ContactInfo() {
         sx={{
           paddingBottom: '0.5rem',
         }}>
-        <Typography variant='h4' textAlign='center'>
-          Contact Me ! : )
+        <Typography variant='h5' textAlign='center'>
+          Contact Me! :)
         </Typography>
       </Box>
       <Box
@@ -57,17 +57,14 @@ export default function ContactInfo() {
           </IconButton>
         </Box>
         <Box 
-        display='flex'
-        direction="column"
-        sx={{ display: 'flex'}}>
-          <Box>
+
+        sx={{display:'flex', flexDirection:'column' }}
+        >
             <Typography>
               Resume
             </Typography>
-          </Box>
-          <Box>
             <IconButton
-              sx={{ margin: '1rem' }}
+              sx={{ margin: '0.2rem', padding:'0' }}
               size="large"
               edge="start"
               aria-label="account of current user"
@@ -76,7 +73,6 @@ export default function ContactInfo() {
             >
               <ArticleIcon />
             </IconButton>
-          </Box>
         </Box>
         <Box>
           <IconButton
